@@ -20,5 +20,14 @@
       <description>大家好 我的博客开通了</description>
     </item>
     
+    <item>
+      <title>如何用hugo搭建博客</title>
+      <link>http://example.org/posts/hugo%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2%E5%B0%8F%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Thu, 30 Apr 2020 13:50:47 +0800</pubDate>
+      
+      <guid>http://example.org/posts/hugo%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2%E5%B0%8F%E6%95%99%E7%A8%8B/</guid>
+      <description>hugo搭建博客小教程  hugo官网安装hugo，将hugo.exe路径加入PATH，按官网流程配置hugo，step2-step7完成，建立用户名.github.io-creator，配置主题 hugo new posts/博客.md生成/博客.md，编辑博客内容保存，draft: false公开博客内容，hugo server -D 本地预览博客内容 别关闭上一个终端，新开终端输入hugo创建新目录public,进入publiccd public gitignore文件加入/public/让public自成一个仓库 git init-git add . git commit -m输入&amp;quot;文件标题&amp;quot;部署线下仓库 github上新建 用户名.github.io仓库，git remote add origin git@github.com：github用户名/用户名.github.io.git git push -u origin master将public上传到github 刷新上面的仓库进入settings，github pages选择master branch，点击http://github用户名.github.io查看博客  </description>
+    </item>
+    
   </channel>
 </rss>
