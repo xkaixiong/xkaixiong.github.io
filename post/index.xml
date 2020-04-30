@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 凯雄的博客</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on 凯雄的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 30 Apr 2020 22:33:24 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>开博大吉</title>
+      <link>http://localhost:1313/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
+      <pubDate>Thu, 30 Apr 2020 22:33:24 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
+      <description>大家好 我的博客开通了</description>
+    </item>
+    
+    <item>
+      <title>如何用hugo搭建博客</title>
+      <link>http://localhost:1313/post/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B0%8F%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Thu, 30 Apr 2020 13:50:47 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B0%8F%E6%95%99%E7%A8%8B/</guid>
+      <description>hugo搭建博客小教程 hugo官网安装hugo，将hugo.exe路径加入PATH，按官网流程配置hugo，step2-step7完成，建立</description>
+    </item>
+    
+  </channel>
+</rss>

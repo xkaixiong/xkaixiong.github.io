@@ -1,32 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>我的博客</title>
-    <link>http://example.org/</link>
-    <description>Recent content on 我的博客</description>
+    <title>凯雄的博客</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on 凯雄的博客</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 30 Apr 2020 22:33:24 +0800</lastBuildDate>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      
+        <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
+&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/gohugoio&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>开博大吉</title>
-      <link>http://example.org/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
+      <link>http://localhost:1313/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</link>
       <pubDate>Thu, 30 Apr 2020 22:33:24 +0800</pubDate>
       
-      <guid>http://example.org/posts/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
-      <description>大家好 我的博客开通了</description>
+      <guid>http://localhost:1313/post/%E5%BC%80%E5%8D%9A%E5%A4%A7%E5%90%89/</guid>
+      
+        <description>&lt;h1 id=&#34;大家好&#34;&gt;大家好&lt;/h1&gt;
+&lt;p&gt;我的博客开通了&lt;/p&gt;
+</description>
+      
     </item>
     
     <item>
       <title>如何用hugo搭建博客</title>
-      <link>http://example.org/posts/hugo%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2%E5%B0%8F%E6%95%99%E7%A8%8B/</link>
-      <pubDate>Thu, 30 Apr 2020 13:50:47 +0800</pubDate>
+      <link>http://localhost:1313/post/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B0%8F%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Thu, 30 Apr 2020 13:50:47 +0000</pubDate>
       
-      <guid>http://example.org/posts/hugo%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2%E5%B0%8F%E6%95%99%E7%A8%8B/</guid>
-      <description>hugo搭建博客小教程  hugo官网安装hugo，将hugo.exe路径加入PATH，按官网流程配置hugo，step2-step7完成，建立用户名.github.io-creator，配置主题 hugo new posts/博客.md生成/博客.md，编辑博客内容保存，draft: false公开博客内容，hugo server -D 本地预览博客内容 别关闭上一个终端，新开终端输入hugo创建新目录public,进入publiccd public gitignore文件加入/public/让public自成一个仓库 git init-git add . git commit -m输入&amp;quot;文件标题&amp;quot;部署线下仓库 github上新建 用户名.github.io仓库，git remote add origin git@github.com：github用户名/用户名.github.io.git git push -u origin master将public上传到github 刷新上面的仓库进入settings，github pages选择master branch，点击http://github用户名.github.io查看博客  </description>
+      <guid>http://localhost:1313/post/hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E5%B0%8F%E6%95%99%E7%A8%8B/</guid>
+      
+        <description>&lt;h1 id=&#34;hugo搭建博客小教程&#34;&gt;hugo搭建博客小教程&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;hugo官网安装hugo，将hugo.exe路径加入PATH，按官网流程配置hugo，step2-step7完成，建立用户名.github.io-creator，配置主题&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hugo new posts/博客.md&lt;/code&gt;生成/博客.md，编辑博客内容保存，&lt;code&gt;draft: false&lt;/code&gt;公开博客内容，&lt;code&gt;hugo server -D&lt;/code&gt; 本地预览博客内容&lt;/li&gt;
+&lt;li&gt;别关闭上一个终端，新开终端输入&lt;code&gt;hugo&lt;/code&gt;创建新目录public,进入public&lt;code&gt;cd public&lt;/code&gt; gitignore文件加入/public/让public自成一个仓库&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git init-git add .  git commit -m&lt;/code&gt;输入&amp;quot;文件标题&amp;quot;部署线下仓库&lt;/li&gt;
+&lt;li&gt;github上新建 用户名.github.io仓库，&lt;code&gt;git remote add origin git@github.com：github用户名/用户名.github.io.git git push -u origin master&lt;/code&gt;将public上传到github&lt;/li&gt;
+&lt;li&gt;刷新上面的仓库进入settings，github pages选择master branch，点击http://github用户名.github.io查看博客&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
     </item>
     
   </channel>
